@@ -20,6 +20,11 @@ Network Topology
 
 All VMs are attached to a custom NATNetwork so they can reach each other while staying isolated from the host's main network.
 
+<img width="1920" height="1080" alt="Screenshot (138)" src="https://github.com/user-attachments/assets/14a553ac-2067-4b3e-a2e5-cb08dfc086be" />
+<img width="1920" height="1080" alt="Screenshot (140)" src="https://github.com/user-attachments/assets/f2d17166-2425-4467-be54-756a5cdfbd0c" />
+<img width="1920" height="1080" alt="Screenshot (139)" src="https://github.com/user-attachments/assets/6bcb8a63-1e60-4106-b5a9-54ad07dc1dc2" />
+
+
 NATNetwork range: 10.0.0.0/24
 
 Machine	IP Address
