@@ -1,7 +1,7 @@
 # -NETWORKWALKS-EMMANUEL-B083-WK1-PM1-CYBERSECURITY-LAB-SETUP
 NETWORKWALKS-SONDA-B083-WK1-PM1-CYBERSECURITY-LAB-SETUP
-Project Overview
 
+Project Overview
 This project focuses on setting up a virtual cybersecurity and penetration-testing laboratory using VirtualBox and Kali Linux.
 
 The purpose of the lab is to create a controlled environment where cybersecurity tools, network scanning, reconnaissance, vulnerability assessment, and other security-testing activities can be performed safely and repeatedly.
@@ -9,7 +9,6 @@ The purpose of the lab is to create a controlled environment where cybersecurity
 The lab is configured on a private virtual network (NATNetwork) so that additional machines can be added later and used as targets for authorized security testing.
 
 This lab is built entirely on machines and virtual environments that I own and control. No unauthorized systems were accessed as part of this project.
-
 Tools & Requirements
 Item	Detail
 Hypervisor	Oracle VirtualBox
