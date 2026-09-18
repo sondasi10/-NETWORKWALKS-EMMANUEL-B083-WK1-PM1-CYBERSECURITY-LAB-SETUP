@@ -8,7 +8,6 @@
 **Permission Secured:** ✅ Yes
 **Phases Covered:** Reconnaissance & Footprinting · Scanning & Network Discovery
 
-📄 [Download the full formatted report (PDF)](W2-PM-FINAL_Sondasi_B083.pdf)
 
 ---
 
@@ -117,28 +116,37 @@ Overall, this reinforced that solid information gathering — done carefully, do
 ## 📸 Evidence
 
 **1. WHOIS lookup** — `whois networkwalks.com`
-![WHOIS lookup](evidence/whois.png)
+<img width="1920" height="947" alt="whois" src="https://github.com/user-attachments/assets/b6c27a87-cffd-42bc-8db5-30776cc7db3e" />
+
 
 **2. WhatWeb technology fingerprint** — `whatweb networkwalks.com`
-![WhatWeb fingerprint](evidence/whatweb.png)
+
+<img width="1920" height="947" alt="whatweb" src="https://github.com/user-attachments/assets/a288f49e-64f5-429a-bbd0-9384a114328a" />
+
 
 **3. Nslookup query (NXDOMAIN due to typo)** — `nslookup networkswalks.com`
-![Nslookup query](evidence/nslookup.png)
+<img width="1920" height="947" alt="nslookup" src="https://github.com/user-attachments/assets/49f7ff88-6a31-4faf-b932-bf7fe3375d56" />
+
 
 **4. HTTP headers via Curl** — `curl -I https://networkwalks.com`
-![Curl headers](evidence/curl.png)
+<img width="1920" height="947" alt="curl" src="https://github.com/user-attachments/assets/edd3ec57-20f4-449d-9465-68a162245497" />
+
 
 **5. WAF detection via Wafw00f** — `wafw00f networkwalks.com`
-![Wafw00f WAF detection](evidence/wafw00f.png)
+<img width="1920" height="947" alt="warw00f" src="https://github.com/user-attachments/assets/bb910eba-d9cf-4f30-9b9d-eecf7ee34573" />
+
 
 **6. DNS enumeration via DNSRecon** — `dnsrecon -d networkwalk.com`
-![DNSRecon enumeration](evidence/dnsrecon.png)
+<img width="1920" height="947" alt="dsnrecon" src="https://github.com/user-attachments/assets/b30aa90f-9de5-49ec-876b-40cd86dc8886" />
+
 
 **7. Zenmap ping scan of local subnet** — `nmap -sn 10.0.3.2/24`
-![Zenmap ping scan](evidence/zenmap.png)
+<img width="1024" height="768" alt="zenmap" src="https://github.com/user-attachments/assets/a77d28f8-654e-40ab-a71c-be5fe81c1a60" />
+
 
 **8. Zenmap network topology (fisheye view)**
-![Zenmap topology](evidence/topology.png)
+<img width="1024" height="768" alt="topology" src="https://github.com/user-attachments/assets/f73dc901-1ab3-48ef-ba24-4d2279a9ec86" />
+
 
 ---
 
